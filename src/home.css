@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
+
+.main-div {
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.modal-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-none {
+  display: none !important;
+}
+
+.modal-div {
+  position: fixed;
+  width: 100px;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background-color: #fff;
+  width: 25%;
+  transition: 0.5s;
+}
+
+.modal-plot {
+  width: 95%;
+  margin: auto;
+}
+
+.modal-details-container {
+  padding-left: 2rem;
+}
+
+.modal-details-img-container {
+  padding-left: 0;
+  height: 17rem;
+  width: 17rem;
+  /* margin-right: 1rem; */
+  margin-top: 4rem;
+}
+
+.modal-details-img-container img {
+  border-radius: 15px;
+  height: 100%;
+  width: 100%;
+}
+
+.modal-watch-btn {
+  position: relative;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  border: none;
+  background-color: #5f2eea;
+  color: #fff;
+  width: 85%;
+  bottom: -60px;
+}
+
+.hide-modal {
+  right: -398px;
+  transition: 0.5s;
+}
+
+.hero-section {
+  display: flex;
+}
+
+.side-bar {
+  flex: 1;
+  padding: 2rem;
+  border-right: 1px solid rgb(219, 219, 219);
+  border-width: 2px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.side-bar h1 {
+  font-size: 2.2rem;
+}
+
+.side-bar p {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.movie-display {
+  flex: 4;
+  margin-top: 6rem;
+  margin-left: 7rem;
+}
+
+.movie-display h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+.search-box {
+  border-radius: 15px;
+  border: none;
+  width: 60%;
+  height: 4rem;
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  top: 1.2rem;
+  left: 1.5rem;
+  width: 1.5rem;
+  /* display: inline-block; */
+}
+
+.icon-sidebar {
+  /* display: inline-block; */
+  width: 0.8rem;
+  background-color: #5f2eea;
+  padding: 9px;
+  margin-right: 3px;
+  border-radius: 7px;
+  /* display: inline-block; */
+}
+
+.search-icon-container,
+.watch-icon-container {
+  display: flex;
+  margin-top: 2.5rem;
+  justify-content: center;
+}
+.search-icon-container p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+
+.watch-icon-container p {
+  margin-left: 5px;
+}
+
+.watch-list-icon {
+  background-color: transparent;
+  width: 1.5rem;
+}
+
+input[type="text"],
+textarea {
+  background-color: #d9dbe9;
+  padding-left: 3.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+.submit-search {
+  background-color: #5f2eea;
+  padding: 1rem 4rem 1rem 4rem;
+  height: 4rem;
+  border: none;
+  border-radius: 35px;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.card-rapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 13rem;
+  height: 19rem;
+  margin-right: 1.5rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.card p {
+  bottom: 8px;
+  left: 58px;
+  border: none;
+  border-radius: 25px;
+  padding: 0.5rem 2rem;
+  background: #d4caca;
+  position: absolute;
+}
+
+.movie-image {
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.result-section {
+  margin-top: 4rem;
+}
+
+.result-section .result-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+}
+
+.submit-search {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+}
+
+/* Movie Details */
+
+.movie-details {
+  flex: 4;
+  margin-top: 6rem;
+  /* margin-left: 7rem; */
+  display: flex;
+}
+
+.movie-details-img-container {
+  padding-left: 3rem;
+  height: 20rem;
+  width: 20rem;
+  margin-right: 2rem;
+  flex: 1;
+}
+
+.movie-details-img-container img {
+  border-radius: 15px;
+  height: 100%;
+  width: 100%;
+}
+
+.movie-details-container {
+  flex: 3;
+}
+
+.movie-details-container h1 {
+  margin-top: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.movie-details-container .detail-plot {
+  width: 95%;
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.meta-detail {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.meta-detail p {
+  margin-right: 9rem;
+}
+
+.watch-btn {
+  margin-left: 0;
+  margin-top: 1.3rem;
+}
+
+.similar-movies-section {
+  margin-left: 3rem;
+  margin-top: 5rem;
+}
+
+.similar-movies-section .similar {
+  margin: 3rem 0;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+@media only screen and (max-width: 961px) {
+  .modal-div {
+    width: 32%;
+  }
+  .search-box {
+    width: 53%;
+  }
+  .submit-search {
+    padding: 1rem 2rem 1rem 2rem;
+  }
+
+  .movie-display {
+    margin-left: 5rem;
+  }
+
+  .meta-detail p {
+    margin-right: 3rem;
+  }
+  .movie-details-container .detail-plot {
+    font-size: 1rem;
+  }
+
+  .modal-details-img-container {
+    height: 16rem;
+    width: 11rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+  }
+
+  .modal-details-container {
+    padding-left: 2rem;
+  }
+
+  .modal-watch-btn {
+    bottom: -85px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .search-icon-container,
+  .watch-icon-container {
+    display: none;
+  }
+
+  .side-bar {
+    padding: 0;
+  }
+
+  .search-box {
+    width: 58%;
+    height: 3.5rem;
+  }
+
+  .submit-search {
+    height: 3.5rem;
+    padding: 8px;
+    border-radius: 19px;
+  }
+
+  .movie-display {
+    margin-top: 0;
+    margin-left: 2rem;
+  }
+
+  .hero-section {
+    flex-direction: column;
+  }
+
+  .card-rapper {
+    justify-content: center;
+  }
+  .card {
+    width: 18rem;
+    height: 23rem;
+  }
+  .card p {
+    left: 100px;
+  }
+  .movie-details {
+    margin-top: 0rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .movie-details-img-container {
+    padding-left: 0;
+    height: 0;
+    width: 20rem;
+    margin-right: 0;
+  }
+
+  .movie-details-img-container img {
+    height: 22rem;
+  }
+
+  .modal-details-container {
+    padding-left: 1rem;
+    width: 50%;
+  }
+
+  .movie-details-container {
+    padding-left: 2.5rem;
+  }
+
+  .modal-details-container h2 {
+    font-size: medium;
+  }
+
+  .modal-details-img-container {
+    height: 13rem;
+    width: 11rem;
+    margin-right: 0rem;
+    margin-top: 1rem;
+  }
+
+  .modal-div {
+    right: 0;
+    top: auto;
+    bottom: 0;
+    height: 86%;
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .modal-watch-btn {
+    bottom: -8px;
+  }
+
+  .hide-modal {
+    right: 0;
+    bottom: -398px;
+    transition: 0.5s;
+  }
+
+  input[type="text"],
+  textarea {
+    margin-right: 1rem;
+  }
+  .icon-sidebar {
+    position: absolute;
+    bottom: 4px;
+    width: 1.2rem;
+    padding: 16px;
+  }
+}
