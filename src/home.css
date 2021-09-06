@@ -15,6 +15,11 @@
   display: none !important;
 }
 
+.right {
+  right: -398px;
+  transition: 0.5s;
+}
+
 .modal-div {
   position: fixed;
   width: 100px;
@@ -28,7 +33,9 @@
 
 .modal-plot {
   width: 95%;
+  font-size: 0.9rem;
   margin: auto;
+  font-family: "Poppins", sans-serif;
 }
 
 .modal-details-container {
@@ -40,7 +47,7 @@
   height: 17rem;
   width: 17rem;
   /* margin-right: 1rem; */
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .modal-details-img-container img {
@@ -50,14 +57,13 @@
 }
 
 .modal-watch-btn {
-  position: relative;
   padding: 1rem 2rem;
   border-radius: 30px;
+  margin-top: 1rem;
   border: none;
   background-color: #5f2eea;
   color: #fff;
   width: 85%;
-  bottom: -60px;
 }
 
 .hide-modal {
@@ -172,8 +178,8 @@ textarea {
 }
 
 .card {
-  width: 13rem;
-  height: 19rem;
+  width: 12rem;
+  height: 17rem;
   margin-right: 1.5rem;
   margin-bottom: 2rem;
   position: relative;
@@ -181,7 +187,7 @@ textarea {
 
 .card p {
   bottom: 8px;
-  left: 58px;
+  left: 50px;
   border: none;
   border-radius: 25px;
   padding: 0.5rem 2rem;
@@ -288,6 +294,15 @@ textarea {
     margin-left: 5rem;
   }
 
+  .card {
+    width: 14rem;
+    height: 19rem;
+  }
+
+  .card p {
+    left: 59px;
+  }
+
   .meta-detail p {
     margin-right: 3rem;
   }
@@ -388,6 +403,10 @@ textarea {
     margin-top: 1rem;
   }
 
+  .modal-plot {
+    font-size: 0.7rem;
+  }
+
   .modal-div {
     right: 0;
     top: auto;
@@ -417,4 +436,14 @@ textarea {
     width: 1.2rem;
     padding: 16px;
   }
+}
+
+
+.fa-clock,.fa-star,.fa-play {
+  margin-right: 5px;
+}
+
+.fa-arrow-left {
+  margin-top: 1rem;
+  margin-left: 1rem;
 }

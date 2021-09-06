@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
 import Home from "./Home/Home";
-import MovieDetail from "./MovieDetail/movie-detail";
+import MovieDetail from "./MovieDetail/MovieDetail";
 
 const Routes = () => {
   return (
