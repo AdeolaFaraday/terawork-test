@@ -342,9 +342,9 @@ textarea {
   }
 
   .submit-search {
-    height: 3.5rem;
-    padding: 8px;
-    border-radius: 19px;
+    height: 3rem;
+    padding: 10px;
+    border-radius: 38px;
   }
 
   .movie-display {
